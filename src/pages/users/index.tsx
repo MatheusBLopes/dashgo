@@ -4,11 +4,10 @@ import { Header } from "../../components/Header"
 import { Sidebar } from "../../components/Sidebar"
 import { Pagination } from "../../components/Pagination"
 import NextLink from "next/link";
-import { getUsers, useUsers } from '../../services/hooks/useUsers'
+import { useUsers } from '../../services/hooks/useUsers'
 import { useState } from "react";
 import { queryClient } from "../../services/queryClient";
 import { api } from "../../services/api";
-import { GetServerSideProps } from "next";
 
 
 export default function UserList() {
